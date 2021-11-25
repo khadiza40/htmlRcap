@@ -1,60 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>html form</title>
 </head>
+
 <body>
     <div>
-        <header> <h1>Registration form</h1> </header>
+        <header>
+            <h1>Registration form</h1>
+        </header>
         <div>
-         <label for="name">Full Name: </label>
-         <input type="text" name="name" id="name"placeholder="Enter your name..." required readonly>  <br> <br>
+            <label for="name">Full Name: </label>
+            <input type="text" name="name" id="name" placeholder="Enter your name..." required readonly> <br> <br>
 
-         <label for="email">Email: </label>
-         <input type="email" name="email" id="email" placeholder="Enter your email..." required>  <br> <br>
+            <label for="email">Email: </label>
+            <input type="email" name="email" id="email" placeholder="Enter your email..." required> <br> <br>
 
-         <label for="password">Password: </label>
-         <input type="password" name="password" id="password" placeholder="Enter your password..." required>  <br><br>
+            <label for="password">Password: </label>
+            <input type="password" name="password" id="password" placeholder="Enter your password..." required> <br><br>
 
-         <label for="dob">Date of Birth: </label>
-         <input type="date" name="dob" id="dob" >  <br> <br>
-
-
-         <label for="pic">Choose your photo: </label>
-         <input type="file" name="pic" id="pic" >  <br> <br>
-
-         <label for="gender">Gender: </label>
-         <input type="radio" name="gender" id="gender"  value="Female">Female  
-         <input type="radio" name="gender" id="gender"  value="Male">Male  <br> <br>
-
-         <label for="religion">Religion: </label>
-         <input type="checkbox" name="religion" id="religion"  value="Islam">Islam  
-         <input type="checkbox" name="religion" id=religionr"  value="Hindu">Hindu  <br> <br>
+            <label for="dob">Date of Birth: </label>
+            <input type="date" name="dob" id="dob"> <br> <br>
 
 
-         <label for="gender">Department: </label>
-         <select name="department" id="">
-             <option value="cse">CSE</option>
-             <option value="eee">EEE</option>
-             <option value="TXT">TEXTILE</option>
-         </select> <br><br><br>
+            <label for="pic">Choose your photo: </label>
+            <input type="file" name="pic" id="pic"> <br> <br>
 
-         <label for="message">Message:</label> <br>
-         <textarea name="message" id="message" cols="30" rows="10"></textarea> <br> <br>
-          
-         <input type="submit" value="Register">
-         <input type="reset" value="Clear" disabled>
-         
+            <label for="gender">Gender: </label>
+            <input type="radio" name="gender" id="gender" value="Female">Female
+            <input type="radio" name="gender" id="gender" value="Male">Male <br> <br>
 
-        
+            <label for="religion">Religion: </label>
+            <input type="checkbox" name="religion" id="religion" value="Islam">Islam
+            <input type="checkbox" name="religion" id=religionr" value="Hindu">Hindu <br> <br>
+
+
+            <label for="gender">Department: </label>
+            <select name="department" id="">
+                <option value="cse">CSE</option>
+                <option value="eee">EEE</option>
+                <option value="TXT">TEXTILE</option>
+            </select> <br><br><br>
+
+
+            <label for="country">country </label>
+            <datalist name="country" id="country">
+                <option value="cse">Bangladesh</option>
+                <option value="eee">India</option>
+                <option value="TXT">Pakistan</option>
+            </datalist>
+
+
+            <label for="message">Message:</label> <br>
+            <textarea name="message" id="message" cols="30" rows="10"></textarea> <br> <br>
+
+            <input type="submit" value="Register">
+            <input type="reset" value="Clear" disabled>
+
+
+
         </div>
-        
 
 
-       
+
+
     </div>
 </body>
+
 </html>
