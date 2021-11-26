@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-    
+
 
     <!-- tools\ plugins for testing accessibilty -->
     <!-- 
@@ -18,5 +20,69 @@
         see this videio
         https://youtu.be/LH4Sn9ZF-jQ
      -->
+
+
+
+    <!-- 
+
+        1.usw semantic tags o- 
+        *tools/technology can access the information to provide better page summary or navigating options to their user  
+        * main tag wrapped the main content of the page. 1 main per page
+
+        2. using clear language ==> write february 28 instead of feb 28 , 9 to 1 instead of 9-1 etc.
+
+
+        3. using heading tags in an order
+
+         - heading tags h1, h2 ,....
+         - heading tags give a summary of a webpage
+         -don't use just use these heading tags for making things bigger
+         -  top-down hierarchy / bottom-up hierarchy
+         (if you go from h2 to h4 can break the structure which menans site will not be seo friendly)
+
+         - in each page only one h1 element
+         - 
+
+         4. alt text for image 
+         - provides important info to the blind people
+         -low bandwidth
+         -helps technologies (search engine like google)
+
+
+         5. contrast ratio
+         - proper contrast ratio of foreground and background-color -range 
+             ---- wcag requirement contrast ratio shoud be minimum at least 4.5:1  ==== https://www.w3.org/TR/WCAG21/#contrast-minimum
+             ---- contrast checker tool === https://webaim.org/resources/contrastchecker/
+         - don't rely on color - color blind can suffer
+
+         6. form related matter
+
+         --  improve form field accessibility with the label element
+          <div><label for="name">Name: </label><input type="text" id="name"></div>
+         -- for values must be same as element's id 
+         -- wrap radio buttons in a fieldset element
+
+
+
+         7. accessible data table 
+
+         8.make text link meaningful
+
+         9. building keyboard accessibility
+
+         use tabindex number 
+                          <h1 tabindex="2">name</h1>
+                          <p tabindex="3"></p>
+                          <header tabindex="1"></header>
+
+         10. test your web accessibililty skill
+
+
+
+
+      -->
+
+
 </body>
+
 </html>
